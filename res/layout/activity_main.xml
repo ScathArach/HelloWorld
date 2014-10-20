@@ -1,0 +1,26 @@
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <Button
+      android:id="@+id/bt"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:text="@string/goodBye"
+      android:onClick="goodBye"
+      />
+
+  <TextView
+      android:id="@+id/tv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="15dp"
+      android:text="@string/hello_world"
+      android:textSize="35sp" />
+
+</RelativeLayout>
